@@ -1,62 +1,92 @@
 /* Home component */
 .home {
-  display: flex;
-  flex-direction: column;
+  width: 100%;
   align-items: center;
-  padding: 50px 20px;
+  color: #5a9a29;
+  font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 /* About section */
 .about {
-  max-width: 800px;
+  color: #f0f0f0;;
+  width: 100%;
+  height: calc(100vh - 100px);
   text-align: center;
-  margin-bottom: 5rem;
-  margin-top: 15rem;
+  background-color: #000309;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
-/* About Me section */
-.about-me {
-  max-width: 800px;
-  text-align: center;
-  margin-bottom: 50px;
+.about-me{
+  font-size: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  
 }
 
+
 .about-me h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 30px;
 }
 
 .about-me p {
   font-size: 1.2rem;
   line-height: 1.5;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
+.poem {
+  font-size: 1.2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+
 .about h2 {
-  font-size: 3rem;
-  margin-bottom: 30px;
+  font-size: 5rem;
+  color: #97e65a;
+  height: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  
 }
 
 .about .prompt {
-  font-size: 1.2rem;
-  line-height: 1.5;
+  font-size: 30px;
+  width: 30%;
+}
+.prompt svg{
+  font-size: 50px;
+  margin: 5px;
+  color: rgb(146, 229, 44);
 }
 
 .about .links {
   margin-top: 30px;
 }
 
-.about .links a {
-  margin-right: 20px;
-  font-size: 2.5rem;
-  color: #4f4f4f;
-}
-
-.about .links a:hover {
-  color: #1e90ff;
-}
 
 /* Skills section */
 .skills {
-  text-align: center;
+  font-size: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .skills h1 {
@@ -81,8 +111,29 @@
   margin-bottom: 20px;
 }
 
-.skills .item span {
+.list span {
   font-size: 1.2rem;
-  line-height: 1.5;
-  color: #4f4f4f;
+}
+
+@media only screen and (max-width: 600px) {
+  .about h2 {
+    font-size: 40px;
+  }
+
+  .about .prompt {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 80%;
+  }
+
+  .skills {
+    text-align: center;
+  }
+  .list {
+    padding: 0;
+  }
+
+  .skills h2 {
+    font-size: 30px;
+  }
 }
