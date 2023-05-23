@@ -5,6 +5,7 @@ import  FacebookIcon from '@material-ui/icons/Facebook'
 import '../styles/Footer.css'
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <div className='footer'>
      <div className='social-media'>
@@ -12,7 +13,7 @@ const Footer = () => {
       <LinkedInIcon />
       <FacebookIcon />
      </div>
-     <p> &copy: miguelcabral@2023 </p>
+     <p>&copy; {currentYear} miguel-cabral </p>
     </div>
   )
 }
