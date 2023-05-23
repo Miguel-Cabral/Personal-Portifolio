@@ -8,6 +8,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <div className='footer'>
+      <p>Please follow me on:</p>
      <div className='social-media'>
       <InstagramIcon />
       <LinkedInIcon />
