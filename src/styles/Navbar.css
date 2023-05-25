@@ -5,7 +5,7 @@
 }
 
 .navbar a {
- color: white;
+ color: rgb(146, 229, 44);
  text-decoration: none;
  margin: 20px;
  font-size: 25px;
@@ -21,7 +21,7 @@
 }
 
 .links :hover{
- color: rosybrown;
+ color: rgb(144, 232, 159);
  text-decoration: underline;
 }
 
