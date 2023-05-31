@@ -9,9 +9,9 @@ const Home = () => {
   return (
     <div className="home">
       <div className="about">
-        <h2> Hello, I am Miguel</h2>
+        <h2 className='typewriter'> Hi, I am Miguel Cabral</h2>
         <div className="prompt">
-          <p>A Full Stack Web Developer </p>
+          <p>A Graduate Web Developer... </p>
           <div className="links">
             <a href="mailto:rmiguelfe@gmail.com" target='blank'>
               <EmailIcon />
@@ -72,19 +72,19 @@ const Home = () => {
           <li className="item">
             <h2> Front-End</h2>
             <span>
-              JavaScript,ReactJS, HTML, CSS, NPM, BootStrap, MaterialUI
+              JavaScript|ReactJS|HTML|CSS|NPM|BootStrap|MaterialUI
             </span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
             <span>
-              NodeJS, ExpressJS, PostgreSQL
+              NodeJS|ExpressJS|PostgreSQL
             </span>
           </li>
           <li className="item">
             <h2>Tools</h2>
             <span>
-              VSCode, Postman, Git, GitHub, Trello, Slack
+              VSCode|Postman|Git|GitHub|Trello|Slack|Netlify|Render
             </span>
           </li>
         </ol>
