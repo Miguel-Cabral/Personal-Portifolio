@@ -6,10 +6,11 @@ import '../styles/Home.css'
 
 
 const Home = () => {
+
   return (
     <div className="home">
       <div className="about">
-        <h2 className='typewriter'> Hi, I am Miguel Cabral</h2>
+        <h2 className='typewriter'> Hi, I am Miguel</h2>
         <div className="prompt">
           <p>A Graduate Web Developer... </p>
           <div className="links">
