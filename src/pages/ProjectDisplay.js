@@ -1,9 +1,9 @@
 import React from 'react'
 import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/projectList";
-import GitHubIcon from "@material-ui/icons/GitHub";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import "../styles/ProjectDisplay.css";
-import Button from "@material-ui/core/Button";
+import Button from "@mui/material/Button";
 
 
 const ProjectDisplay = () => {
