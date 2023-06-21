@@ -1,7 +1,7 @@
 import React from 'react'
-import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import InstagramIcon  from '@material-ui/icons/Instagram'
-import  FacebookIcon from '@material-ui/icons/Facebook'
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
+import InstagramIcon  from '@mui/icons-material/Instagram'
+import  FacebookIcon from '@mui/icons-material/Facebook'
 import '../styles/Footer.css'
 
 const Footer = () => {
